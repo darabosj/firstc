@@ -1,6 +1,12 @@
-int main(int argc,int *argv)
+#include <stdio.h>
+int main(int argc,char **argv)
 {
-
-return 0;
+	int i;
+	printf("First \n");
+	printf("Argc : %i\n",argc);
+	for(i=0;i<argc;i++){
+		printf("argv: %s\n",argv[i]);
+		}
+	return 0;
 }
 
