@@ -1,1 +1,1 @@
-First  C program for parameter using demostration
+C program using paramater handling in main procedure.
